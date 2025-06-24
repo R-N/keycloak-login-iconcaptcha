@@ -1021,7 +1021,7 @@
     },
     {
       "id": "8771eb60-a092-49b1-9f22-c28cc3e73c36",
-      "alias": "browser with recaptcha",
+      "alias": "browser with iconcaptcha",
       "description": "browser based authentication",
       "providerId": "basic-flow",
       "topLevel": true,
@@ -1051,7 +1051,7 @@
         {
           "requirement": "ALTERNATIVE",
           "priority": 30,
-          "flowAlias": "browser with recaptcha forms",
+          "flowAlias": "browser with iconcaptcha forms",
           "userSetupAllowed": false,
           "autheticatorFlow": true
         }
@@ -1059,7 +1059,7 @@
     },
     {
       "id": "11801baa-08ac-4f39-8f22-907a405a55a3",
-      "alias": "browser with recaptcha Browser - Conditional OTP",
+      "alias": "browser with iconcaptcha Browser - Conditional OTP",
       "description": "Flow to determine if the OTP is required for the authentication",
       "providerId": "basic-flow",
       "topLevel": false,
@@ -1083,14 +1083,14 @@
     },
     {
       "id": "da8da6f1-4dd1-4afe-915c-6a695280b004",
-      "alias": "browser with recaptcha forms",
+      "alias": "browser with iconcaptcha forms",
       "description": "Username, password, otp and other auth forms.",
       "providerId": "basic-flow",
       "topLevel": false,
       "builtIn": false,
       "authenticationExecutions": [
         {
-          "authenticator": "recaptcha-u-p-form",
+          "authenticator": "iconcaptcha-u-p-form",
           "requirement": "REQUIRED",
           "priority": 20,
           "userSetupAllowed": false,
@@ -1099,7 +1099,7 @@
         {
           "requirement": "CONDITIONAL",
           "priority": 21,
-          "flowAlias": "browser with recaptcha Browser - Conditional OTP",
+          "flowAlias": "browser with iconcaptcha Browser - Conditional OTP",
           "userSetupAllowed": false,
           "autheticatorFlow": true
         }
@@ -1312,7 +1312,7 @@
           "autheticatorFlow": false
         },
         {
-          "authenticator": "registration-recaptcha-action",
+          "authenticator": "registration-iconcaptcha-action",
           "requirement": "DISABLED",
           "priority": 60,
           "userSetupAllowed": false,

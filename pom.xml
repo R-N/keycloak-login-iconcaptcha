@@ -24,12 +24,12 @@
         <version>4.5.0.Final-SNAPSHOT</version>
     </parent> -->
 
-    <name>Recaptcha Login</name>
+    <name>IconCaptcha Login</name>
     <description/>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.keycloak.marjaa</groupId>
-    <artifactId>recaptcha-login-provider</artifactId>
+    <groupId>org.keycloak.rn</groupId>
+    <artifactId>iconcaptcha-login-provider</artifactId>
     <version>0.1.0</version>
     <packaging>jar</packaging>
 
@@ -75,7 +75,7 @@
     </dependencies>
 
     <build>
-        <finalName>recaptcha-login</finalName>
+        <finalName>iconcaptcha-login</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
